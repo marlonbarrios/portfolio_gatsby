@@ -2,7 +2,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { FaFacebookSquare, FaDownload, FaGithub, FaLinkedin, FaEnvelope, FaTwitterSquare, FaFileDownload } from "react-icons/fa";
+import { FaFacebookSquare, FaGithub, FaLinkedin, FaEnvelope, FaTwitterSquare, FaFileDownload } from "react-icons/fa";
 
 import Header from "./header"
 import "./layout.css"

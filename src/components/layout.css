@@ -6,10 +6,10 @@
   min-height: 50vh;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Lato', sans-serif;
- 
 }
 
 img {
@@ -23,6 +23,22 @@ img {
   color: #181818;
   margin: 2rem;
 }
+
+.headshot {
+  width: 200px;
+  justify-content: center;
+}
+.headshot img {
+  border-radius: 100px;
+  border: solid white 3px;
+}
+.headshot img:hover {
+  border: solid peru 4px;
+}
+
+
+
+
 .header_intro h1 {
   text-align: center;
   padding-top: 1rem;
@@ -38,7 +54,14 @@ img {
  
 }
 
+.tech_icons a {
 
+  font-size: 1.5em;
+  justify-content: space-between;
+  align-content:center ;
+padding-bottom: 1.5rem;
+
+}
 
 .projects__card {
   width: 450px;
@@ -59,7 +82,7 @@ a {
 
 .projects__card__links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .projects__card__links a {
@@ -107,8 +130,6 @@ a {
   display:flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 
 /* defaut styling*/
