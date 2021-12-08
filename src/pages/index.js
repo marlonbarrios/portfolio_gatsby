@@ -18,6 +18,25 @@ const IndexPage = () => (
 </div>
 </header>
 <section className='projects'>
+<div className='projects__card'>
+  <div className='projects__card__description'>
+  <img src='  https://github.com/tylerrice121/Futures_Thinking/raw/master/main_app/static/images/home.png'/>
+
+
+
+<h2>futures-thinking.io</h2>
+<p>
+
+We were inspired by the Futures Thinking discipline, as an approach to creative and exploratory process that uses divergent thinking, seeking many possible answers and acknowledging uncertainty. It's a different mind-set to analytical thinking which uses convergent thinking to seek the right answer and reduce uncertainty. In Futures Thinking, the user is prompted to complete the phrase: "In the future...".</p>
+</div>
+<div className='projects__card__links'>
+<a target="_blank" href='https://github.com/tylerrice121/Futures_Thinking'>
+ GitHub
+</a>
+<a target="_blank"href='https://futuresthinking.herokuapp.com/'>
+ Live</a>
+</div>
+  </div>
   <div className='projects__card'>
   <div className='projects__card__description'>
     <img src='https://github.com/marlonbarrios/Project1_app_with-API-cryptomondrian/raw/master/assets/final_look.png'/>
@@ -26,31 +45,17 @@ const IndexPage = () => (
 </div>
 <div className='projects__card__links'>
 <a target="_blank" href='https://github.com/marlonbarrios/Project1_app_with-API-cryptomondrian/blob/master/README.md'>
-  GitHub</a>
+  GitHub
+</a>
 <a target="_blank"href='https://crypto-mondrian.netlify.app/?'>
  Live</a>
 </div>
   </div>
-  <div className='projects__card'>
-  <div className='projects__card__description'>
-  <img src='https://storage.ning.com/topology/rest/1.0/file/get/9890327258'/>
-
-<h2>Hai-QR</h2>
-<p>Haikus and QR codes originated in Japan and share a minimalist computational esthetic. Hai-QR allows you to create, store and visulaize Haikus as functional QR codes. Hai-QR is an exploration of the poetics of technologies of composition and transcoding.</p>
-</div>
-<div className='projects__card__links' >
-<a target="_blank" href='https://github.com/marlonbarrios/project2-hai-QR/blob/main/README.md'>
-  GitHub
-</a>
-<a target="_blank" href='https://haiqr2.herokuapp.com/'>
- Live
-</a>
-</div>
-  </div>
+  
   <div className='projects__card'>
   <div className='projects__card__description'>
   <img src='  https://github.com/marlonbarrios/project3lovethycrypto/raw/mondrian/src/images/home.png'/>
-<h2>CryptoMondrian</h2>
+
 
 <h2>lovethycrypto</h2>
 <p>The cryptocurrency ecosystem is vast, fast growing and can be daunting and disorienting. lovethycrypto is a MERN app that offers the users a stream of the main 250 cryptocurrencies sorted by Market Cap.
@@ -72,25 +77,23 @@ const IndexPage = () => (
 </section>
 
 <section className='projects'>
-  <div className='projects__card'>
+<div className='projects__card'>
   <div className='projects__card__description'>
-  <img src='  https://github.com/tylerrice121/Futures_Thinking/raw/master/main_app/static/images/home.png'/>
+  <img src='https://storage.ning.com/topology/rest/1.0/file/get/9890327258'/>
 
-
-
-<h2>futures-thinking.io</h2>
-<p>
-
-We were inspired by the Futures Thinking discipline, as an approach to creative and exploratory process that uses divergent thinking, seeking many possible answers and acknowledging uncertainty. It's a different mind-set to analytical thinking which uses convergent thinking to seek the right answer and reduce uncertainty. In Futures Thinking, the user is prompted to complete the phrase: "In the future...".</p>
+<h2>Hai-QR</h2>
+<p>Haikus and QR codes originated in Japan and share a minimalist computational esthetic. Hai-QR allows you to create, store and visulaize Haikus as functional QR codes. Hai-QR is an exploration of the poetics of technologies of composition and transcoding.</p>
 </div>
-<div className='projects__card__links'>
-<a target="_blank" href='https://github.com/tylerrice121/Futures_Thinking'>
- GitHub
+<div className='projects__card__links' >
+<a target="_blank" href='https://github.com/marlonbarrios/project2-hai-QR/blob/main/README.md'>
+  GitHub
 </a>
-<a target="_blank"href='https://futuresthinking.herokuapp.com/'>
- Live</a>
+<a target="_blank" href='https://haiqr2.herokuapp.com/'>
+ Live
+</a>
 </div>
   </div>
+  
   <div className='projects__card'>
   <div className='projects__card__description'>
   <img src='https://storage.ning.com/topology/rest/1.0/file/get/8688552671'/>
