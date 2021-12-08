@@ -28,14 +28,17 @@ I am fascinated by the potential of the blockchain for financial inclussion and 
 
 
 <a target="_blank" href='https://www.linkedin.com/in/marlon-barrios-solano-98599b205/'><img width='150px' src='https://storage.ning.com/topology/rest/1.0/file/get/9015983657'/></a>
+
 </div>
+
+
 <h2>Hola, my name is Marlon Barrios Solano and this is my portfolio:</h2>
 </header>
 <section className='projects'>
 <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
-<a target="_blank" href='https://www.python.org/'><FaPython/></a>
+<a target="_blank" alt="Python" href='https://www.python.org/'><FaPython/></a>
 <a target="_blank" href='https://www.djangoproject.com/'><SiDjango/></a>
 <a target="_blank" href='https://www.heroku.com/'><DiHeroku/></a>
 <a target="_blank" href='https://www.postgresql.org/'><SiPostgresql/></a>
