@@ -11,7 +11,8 @@ import { DiJavascript, DiCss3, DiHtml5, DiMongodb, DiHeroku, DiJqueryLogo, DiFir
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Marlon barrios Solano Portfolio" />
+    <Seo title="Marlon Barrios Solano Portfolio | Software Engineering | Online Communities | Blockchain | Art +
+Technology" />
    
     <header className='header'>
     

@@ -37,8 +37,7 @@ const Layout = ({ children }) => {
 <a target='_blank' href="https://www.linkedin.com/in/marlon-barrios-solano-98599b205/"><FaLinkedin/></a>
 <a target='_blank' href="https://www.facebook.com/marlonbarriossolano"><FaFacebookSquare/></a>
 <a target='_blank' href="https://twitter.com/MarlonBarriosS2"><FaTwitterSquare/></a>
-
-<a target='_blank' href=""><FaFileDownload/></a>
+<a target='_blank' href="https://storage.ning.com/topology/rest/1.0/file/get/9893404676"><FaFileDownload/></a>
 <a href="mailto:marlon@dance-tech.net"><FaEnvelope/></a>
 
 </div>
