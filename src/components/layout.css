@@ -23,6 +23,11 @@ img {
   color: #181818;
   margin: 2rem;
 }
+.header_intro p {
+ 
+
+  margin: 1rem;
+}
 
 .headshot {
   width: 200px;
@@ -35,8 +40,6 @@ img {
 .headshot img:hover {
   border: solid peru 4px;
 }
-
-
 
 
 .header_intro h1 {
@@ -58,7 +61,7 @@ img {
 
   font-size: 1.5em;
   justify-content: space-between;
-  align-content:center ;
+margin: 2px;
 padding-bottom: 1.5rem;
 
 }

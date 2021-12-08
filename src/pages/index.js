@@ -6,8 +6,8 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { FaPython, FaReact, FaNode} from "react-icons/fa";
-import { SiDjango, SiNetlify } from "react-icons/si";
-import { DiJavascript, DiCss3, DiHtml5, DiMongodb, DiHeroku } from "react-icons/di";
+import { SiDjango, SiNetlify, SiPostman, SiPostgresql, SiExpress } from "react-icons/si";
+import { DiJavascript, DiCss3, DiHtml5, DiMongodb, DiHeroku, DiJqueryLogo, DiFirebase, DiMaterializecss} from "react-icons/di";
 
 const IndexPage = () => (
   <Layout>
@@ -25,16 +25,26 @@ I am fascinated by the potential of the blockchain for financial inclussion and 
 
 </div>
 <div className='headshot'>   
-<img width='150px' src='https://storage.ning.com/topology/rest/1.0/file/get/9015983657'/>
+
+
+<a target="_blank" href='https://www.linkedin.com/in/marlon-barrios-solano-98599b205/'><img width='150px' src='https://storage.ning.com/topology/rest/1.0/file/get/9015983657'/></a>
 </div>
-<h2>Hola, my name is Marlon Barrios Solano and this is my portfolio.</h2>
+<h2>Hola, my name is Marlon Barrios Solano and this is my portfolio:</h2>
 </header>
 <section className='projects'>
 <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
-<a target="_blank" href=''><FaPython/></a>
-<a target="_blank" href=''><SiDjango/></a>
+<a target="_blank" href='https://www.python.org/'><FaPython/></a>
+<a target="_blank" href='https://www.djangoproject.com/'><SiDjango/></a>
+<a target="_blank" href='https://www.heroku.com/'><DiHeroku/></a>
+<a target="_blank" href='https://www.postgresql.org/'><SiPostgresql/></a>
+<a target="_blank" href='https://en.wikipedia.org/wiki/HTML5'><DiHtml5/></a>
+<a target="_blank" href='https://en.wikipedia.org/wiki/CSS'><DiCss3/></a>
+<a target="_blank" href='https://www.javascript.com/'><DiJavascript/></a>
+<a target="_blank" href='https://materializecss.com/'><DiMaterializecss/></a>
+
+
 </div>
   <img src='  https://github.com/tylerrice121/Futures_Thinking/raw/master/main_app/static/images/home.png'/>
 
@@ -63,10 +73,11 @@ is prompted to complete the phrase: "In the future...".</p>
   <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
-<a target="_blank" href=''><DiHtml5/></a>
-<a target="_blank" href=''><DiCss3/></a>
-<a target="_blank" href=''><DiJavascript/></a>
-<a target="_blank" href=''><SiNetlify/></a>
+<a target="_blank" href='https://en.wikipedia.org/wiki/HTML5'><DiHtml5/></a>
+<a target="_blank" href='https://en.wikipedia.org/wiki/CSS'><DiCss3/></a>
+<a target="_blank" href='https://www.javascript.com/'><DiJavascript/></a>
+<a target="_blank" href='https://jquery.com/'><DiJqueryLogo/></a>
+<a target="_blank" href='https://www.netlify.com/'><SiNetlify/></a>
 </div>
     <img src='https://github.com/marlonbarrios/Project1_app_with-API-cryptomondrian/raw/master/assets/final_look.png'/>
 <h2>CryptoMondrian</h2>
@@ -88,12 +99,22 @@ is prompted to complete the phrase: "In the future...".</p>
   <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
-<a target="_blank" href=''><FaReact/></a>
-<a target="_blank" href=''><DiMongodb/></a>
-<a target="_blank" href=''><DiHeroku/></a>
-<a target="_blank" href=''><SiNetlify/></a>
+<a target="_blank" href='https://reactjs.org/'><FaReact/></a>
+<a target="_blank" href='http://expressjs.com/'><SiExpress/></a>
+<a target="_blank" href='https://nodejs.org/en/'><FaNode/></a>
+<a target="_blank" href='https://www.postman.com/'><SiPostman/></a>
+<a target="_blank" href='https://www.mongodb.com/'><DiMongodb/></a>
+<a target="_blank" href='https://firebase.google.com/'><DiFirebase/></a>
+<a target="_blank" href='https://www.heroku.com/'><DiHeroku/></a>
+<a target="_blank" href='https://www.netlify.com/'><SiNetlify/></a>
+
+
+
+
+
 </div>
-  <img src='  https://github.com/marlonbarrios/project3lovethycrypto/raw/mondrian/src/images/home.png'/>
+
+  <img src='https://github.com/marlonbarrios/project3lovethycrypto/raw/mondrian/src/images/home.png'/>
 
 
 <h2>lovethycrypto</h2>
@@ -119,17 +140,16 @@ All data is updated dynamically; app was deployed using Google Firebase authenti
 
 </div>
 
-
-
 </section>
 
 <section className='projects'>
 <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
-<a target="_blank" href=''><FaNode/></a>
-<a target="_blank" href=''><DiMongodb/></a>
-<a target="_blank" href=''><DiHeroku/></a>
+<a target="_blank" href='https://nodejs.org/en/'><FaNode/></a>
+<a target="_blank" href='https://www.mongodb.com/'><DiMongodb/></a>
+<a target="_blank" href='https://www.postman.com/'><SiPostman/></a>
+<a target="_blank" href='https://www.heroku.com/'><DiHeroku/></a>
 </div>
   <img src='https://storage.ning.com/topology/rest/1.0/file/get/9890327258'/>
 

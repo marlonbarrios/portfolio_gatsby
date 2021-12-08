@@ -34,9 +34,10 @@ const Layout = ({ children }) => {
 
 <div className='footer__socials'>
 <a target='_blank' href="https://github.com/marlonbarrios"><FaGithub/></a>
+<a target='_blank' href="https://www.linkedin.com/in/marlon-barrios-solano-98599b205/"><FaLinkedin/></a>
 <a target='_blank' href="https://www.facebook.com/marlonbarriossolano"><FaFacebookSquare/></a>
 <a target='_blank' href="https://twitter.com/MarlonBarriosS2"><FaTwitterSquare/></a>
-<a target='_blank' href="https://www.linkedin.com/in/marlon-barrios-solano-98599b205/"><FaLinkedin/></a>
+
 <a target='_blank' href=""><FaFileDownload/></a>
 <a href="mailto:marlon@dance-tech.net"><FaEnvelope/></a>
 
