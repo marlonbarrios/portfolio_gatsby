@@ -3,7 +3,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { FaFacebookSquare, FaGithub, FaLinkedin, FaEnvelope, FaTwitterSquare, FaFileDownload } from "react-icons/fa";
-
+import { BiArrowToTop } from "react-icons/bi";
 import Header from "./header"
 import "./layout.css"
 
@@ -31,8 +31,10 @@ const Layout = ({ children }) => {
         <main  style={{flexGrow: 1,}}>{children}</main>
        
         <footer className='footer'>
-
+       
+        
 <div className='footer__socials'>
+<a target='_blank' href="#top"> <BiArrowToTop/></a>
 <a target='_blank' href="https://github.com/marlonbarrios"><FaGithub/></a>
 <a target='_blank' href="https://www.linkedin.com/in/marlon-barrios-solano-98599b205/"><FaLinkedin/></a>
 <a target='_blank' href="https://www.facebook.com/marlonbarriossolano"><FaFacebookSquare/></a>
