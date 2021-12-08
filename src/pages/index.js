@@ -26,9 +26,7 @@ const IndexPage = () => (
 </div>
 <div className='projects__card__links'>
 <a target="_blank" href='https://github.com/marlonbarrios/Project1_app_with-API-cryptomondrian/blob/master/README.md'>
-  GitHub
-
-GitHub</a>
+  GitHub</a>
 <a target="_blank"href='https://crypto-mondrian.netlify.app/?'>
  Live</a>
 </div>
