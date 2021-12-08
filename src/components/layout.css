@@ -11,6 +11,10 @@
   font-family: 'Lato', sans-serif;
  
 }
+
+img {
+  border-radius: 15px;
+}
 .header_intro {
   background: rgba(244, 240, 240, 0.7);
   padding-left: 16px;
@@ -34,8 +38,10 @@
  
 }
 
+
+
 .projects__card {
-  width: 33.33%;
+  width: 450px;
   color: rgb(36, 33, 33);
   margin: 0 1rem;
   padding: 2rem;
@@ -44,7 +50,6 @@
   justify-content: space-between;
   background-color: papayawhip;
   border-radius: 15px;
-
   box-shadow: 5px 10px peru;
 }
 a {
