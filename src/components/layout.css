@@ -29,6 +29,12 @@ img {
   margin: 1rem;
 }
 
+.header_intro a {
+ color: rgba(0, 0, 0, 0.5);
+
+  margin: 1rem;
+}
+
 .headshot {
   width: 200px;
   justify-content: center;

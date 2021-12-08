@@ -41,11 +41,7 @@ I am fascinated by the potential of the blockchain for financial inclussion and 
 <a target="_blank" href='https://www.linkedin.com/in/marlon-barrios-solano-98599b205/'><img width='150px' src='https://storage.ning.com/topology/rest/1.0/file/get/9015983657'/></a>
 
 </div>
-
-
-
-
-<h2 >Hola, my name is Marlon Barrios Solano and this is my portfolio:</h2>
+<h3 >Hola, my name is Marlon Barrios Solano and this is my portfolio:</h3>
 </header>
 <section id='portfolio' className='projects'>
 <div className='projects__card'>
