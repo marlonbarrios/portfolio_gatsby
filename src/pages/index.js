@@ -31,7 +31,7 @@ Technology" />
 I am fascinated by the potential of the blockchain for financial inclussion and innovation.</p>
 
 <p><a href="#portfolio"><GrProjects/> Projects</a></p>
-<p><a target='_blank' href="https://storage.ning.com/topology/rest/1.0/file/get/9893404676"><FaFileDownload/> Download my resume</a></p>
+<p><a target='_blank' href="https://storage.ning.com/topology/rest/1.0/file/get/9900427266"><FaFileDownload/> Download my resume</a></p>
 <p><a href="mailto:marlon@dance-tech.net"><FaEnvelope/> Contact me</a></p>
 </div>
 
