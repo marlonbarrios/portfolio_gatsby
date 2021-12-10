@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+ 
 
 
-.header {
+
+.header-t {
   background-image: url("../images/pexels\ .jpg");
   min-height: 50vh;
   background-size: cover;
@@ -12,9 +14,16 @@
   font-family: 'Lato', sans-serif;
 }
 
+.header-t h3 {
+  text-align: center;
+
+  font-size: 2em;
+}
+
 img {
   border-radius: 15px;
 }
+
 .header_intro {
   background: rgba(244, 240, 240, 0.7);
   padding-left: 16px;
@@ -24,8 +33,6 @@ img {
   margin: 2rem;
 }
 .header_intro p {
- 
-
   margin: 1rem;
 }
 
@@ -48,11 +55,7 @@ img {
 }
 
 
-.header_intro h1 {
-  text-align: center;
-  padding-top: 1rem;
-  font-size: 2rem;
-}
+
  
 .projects {
   display: flex;
@@ -61,6 +64,26 @@ img {
   background-color: peachpuff;
   font-family: 'Lato', sans-serif;
  
+}
+
+
+
+@media (max-width: 700px) {
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: papayawhip;
+    justify-items: center;
+
+  }
+
+  .projects__card {
+    width: 100%;
+  }
+  .header-t h3 {
+    font-size: 1rem;
+  }
 }
 
 .tech_icons a {
@@ -72,8 +95,10 @@ padding-bottom: 1.5rem;
 
 }
 
+
+
 .projects__card {
-  width: 450px;
+  width: 400px;
   color: rgb(36, 33, 33);
   margin: 0 1rem;
   padding: 2rem;
@@ -84,6 +109,7 @@ padding-bottom: 1.5rem;
   border-radius: 15px;
   box-shadow: 5px 10px peru;
 }
+
 a {
   text-decoration: none;
  color: rgb(198, 102, 0);
@@ -151,6 +177,7 @@ html {
 }
 body {
   margin: 0;
+  min-width: 450px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);

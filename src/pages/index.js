@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Seo title="Marlon Barrios Solano Portfolio | Software Engineering | Online Communities | Blockchain | Art +
 Technology" />
    
-    <header className='header'>
+    <header className='header-t'>
    
 
 
