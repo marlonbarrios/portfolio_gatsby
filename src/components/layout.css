@@ -54,8 +54,6 @@ img {
   border: solid peru 4px;
 }
 
-
-
  
 .projects {
   display: flex;
@@ -68,7 +66,7 @@ img {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 .projects {
     display: flex;
     flex-direction: column;
@@ -94,6 +92,13 @@ margin: 2px;
 padding-bottom: 1.5rem;
 
 }
+
+
+
+.tech_icons a:hover {
+  color: rgb(47, 126, 146);
+}
+
 
 
 
@@ -127,6 +132,7 @@ a {
   background-image: linear-gradient(transparent 0%,transparent calc(50% - 9px), rgba(31, 24, 24, 0.5)100%) ;
   background-size:100% 200% ;
   background-position: 0px 0px ;
+  font-size: 1em;
 }
 
 .projects__card__links a:hover {
@@ -159,6 +165,10 @@ a {
   justify-content: space-evenly;
   width: 25%;
   padding: 1rem 1rem;
+}
+
+.footer__socials a:hover{
+  color: rgb(47, 126, 146);
 }
 
 .footer__attibutions {

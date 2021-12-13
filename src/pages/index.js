@@ -5,7 +5,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { FaPython, FaReact, FaNode,  FaFileDownload, FaEnvelope} from "react-icons/fa";
+import { FaPython, FaReact, FaNode,  FaFileDownload, FaEnvelope, FaGithub} from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 
 import { SiDjango, SiNetlify, SiPostman, SiPostgresql, SiExpress } from "react-icons/si";
@@ -28,7 +28,7 @@ Technology" />
       
   
     <p>I am a software engineer, creative technologist, researcher and educator with passion for complexity, networked systems, arts, social innovation and community development. I have an interdisciplinary background: digital technology, arts and cognitive science. I was always interested in coding and being very hands on and making, creating platforms and establishing collaborations. I have also always been driven by curiosity and my capacity to see the whole and its parts. I have learned to move fast and efficiently from large scale problems, such as networks to the specificities of software implementation. I have lots of collaborative experience envisioning, engineering, coordinating  and passion for deploying cutting edge international projects intersecting software, culture and people.
-I am fascinated by the potential of the blockchain for financial inclussion and innovation.</p>
+I am fascinated by the potential of the blockchain for financial inclusion and innovation.</p>
 
 <p><a href="#portfolio"><GrProjects/> Projects</a></p>
 <p><a target='_blank' href="https://storage.ning.com/topology/rest/1.0/file/get/9900427266"><FaFileDownload/> Download my resume</a></p>
@@ -73,9 +73,9 @@ the right answer and reduce uncertainty. In Futures Thinking, the user
 is prompted to complete the phrase: "In the future...".</p>
 </div>
 <div className='projects__card__links'>
-<a target="_blank" href='https://github.com/tylerrice121/Futures_Thinking'>
- GitHub
-</a>
+
+<a target='_blank' href="https://github.com/marlonbarrios"><FaGithub/></a>
+
 <a target="_blank"href='https://futuresthinking.herokuapp.com/'>
  Live</a>
 </div>
@@ -100,7 +100,7 @@ is prompted to complete the phrase: "In the future...".</p>
 
 
 <a target="_blank" href='https://github.com/marlonbarrios/Project1_app_with-API-cryptomondrian/blob/master/README.md'>
-  GitHub
+<FaGithub/>
 </a>
 <a target="_blank"href='https://crypto-mondrian.netlify.app/?'>
  Live</a>
@@ -143,9 +143,9 @@ All data is updated dynamically; app was deployed using Google Firebase authenti
 
 <div className='projects__card__links'>
 <a  target="_blank" href='https://github.com/marlonbarrios/project3lovethycrypto/blob/mondrian/README.md'>
-  GitHub
+<FaGithub/>
 </a>
-<a target="_blank" href='https://github.com/marlonbarrios/project3lovethycrypto/blob/mondrian/README.md'>
+<a target="_blank" href='https://lovethycrypto.netlify.app/'>
  Live
 </a>
 </div>
@@ -177,7 +177,7 @@ Haikus and QR codes originated in Japan and share a minimalist computational est
 
 <div className='projects__card__links' >
 <a target="_blank" href='https://github.com/marlonbarrios/project2-hai-QR/blob/main/README.md'>
-  GitHub
+<FaGithub/>
 </a>
 <a target="_blank" href='https://haiqr2.herokuapp.com/'>
  Live
