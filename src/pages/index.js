@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Marlon Barrios Solano Portfolio | Software Engineering | Online Communities | Blockchain | Art +
 Technology" />
-   
+   <div className='container'>
     <header className='header-t'>
    
 
@@ -32,15 +32,19 @@ I am fascinated by the potential of the blockchain for financial inclusion and i
 
 <p><a href="#portfolio"><GrProjects/> Projects</a></p>
 <p><a target='_blank' href="https://storage.ning.com/topology/rest/1.0/file/get/9900427266"><FaFileDownload/> Download my resume</a></p>
-<p><a href="mailto:marlon@dance-tech.net"><FaEnvelope/> Contact me</a></p>
+<p><a href="mailto:marlon@dance-tech.net"><FaEnvelope/> Interested in working together? Contact me</a></p>
 </div>
 
 <div className='headshot'>   
 
 
-<a target="_blank" href='https://www.linkedin.com/in/marlon-barrios-solano-98599b205/'><img width='150px' src='https://storage.ning.com/topology/rest/1.0/file/get/9015983657'/></a>
+<a target="_blank" href='https://storage.ning.com/topology/rest/1.0/file/get/9904991889/'><img width='150px' src='https://storage.ning.com/topology/rest/1.0/file/get/9015983657'/></a>
 
 </div>
+<div class="headshot2">
+     
+    </div>
+
 <h3 >Hola, my name is Marlon Barrios Solano and this is my portfolio:</h3>
 </header>
 <section id='portfolio' className='projects'>
@@ -226,7 +230,7 @@ movimiento.org
 
 
    
-   
+</div>
   </Layout>
 )
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 .header-t {
   background-image: url("../images/pexels\ .jpg");
   min-height: 50vh;
@@ -85,21 +88,27 @@ img {
 }
 
 .tech_icons a {
-
   font-size: 1.5em;
   justify-content: space-between;
 margin: 2px;
 padding-bottom: 1.5rem;
-
 }
-
-
 
 .tech_icons a:hover {
-  color: rgb(47, 126, 146);
+  color: rgb(8, 147, 162);
 }
 
+.header-t a {
+  font-size: 1em;
+  justify-content: space-between;
+margin: 2px;
 
+}
+
+.header-t a:hover {
+  color: rgb(47, 126, 146);
+ 
+}
 
 
 .projects__card {
@@ -119,6 +128,8 @@ a {
   text-decoration: none;
  color: rgb(198, 102, 0);
 }
+
+
 
 .projects__card__links {
   display: flex;
@@ -199,6 +210,11 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+
+
+
+
+
 }
 article,
 aside,
