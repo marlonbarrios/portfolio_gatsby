@@ -28,7 +28,7 @@ Technology" />
       
   
     <p>I am a software engineer, creative technologist, researcher and educator with passion for complexity, networked systems, arts, social innovation and community development. I have an interdisciplinary background: digital technology, arts and cognitive science. I was always interested in coding and being very hands on and making, creating platforms and establishing collaborations. I have also always been driven by curiosity and my capacity to see the whole and its parts. I have learned to move fast and efficiently from large scale problems, such as networks to the specificities of software implementation. I have lots of collaborative experience envisioning, engineering, coordinating  and passion for deploying cutting edge international projects intersecting software, culture and people.
-I am fascinated by the potential of the blockchain for financial inclusion and innovation.</p>
+I am fascinated by the potential of the blockchain for financial inclusion and innovation. I am a <a href="https://kernel.community/en/">Kernel Fellow Block5 2022.</a></p>
 
 <p><a href="#portfolio"><GrProjects/> Projects</a></p>
 <p><a target='_blank' href="https://storage.ning.com/topology/rest/1.0/file/get/9920492100"><FaFileDownload/> Download my resume</a></p>
