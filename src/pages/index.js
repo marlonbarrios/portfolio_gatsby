@@ -38,7 +38,7 @@ I am fascinated by the potential of the blockchain for financial inclusion and i
 <div className='headshot'>   
 
 
-<a target="_blank" href='https://storage.ning.com/topology/rest/1.0/file/get/9904991889/'><img width='150px' src='https://storage.ning.com/topology/rest/1.0/file/get/9015983657'/></a>
+<a target="_blank" href='https://github.com/marlonbarrios'><img width='150px' src='https://storage.ning.com/topology/rest/1.0/file/get/9015983657'/></a>
 
 </div>
 <div class="headshot2">
