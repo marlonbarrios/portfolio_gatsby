@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 import { FaPython, FaReact, FaNode, FaFileDownload, FaEnvelope, FaGithub} from "react-icons/fa";
 import { GrProjects, GrGraphQl } from "react-icons/gr";
 
-import { SiDjango, SiNetlify, SiPostman, SiPostgresql, SiExpress, SiMaterialui, SiHasura } from "react-icons/si";
+import { SiDjango, SiNetlify, SiPostman, SiPostgresql, SiGatsby, SiExpress, SiMaterialui, SiHasura } from "react-icons/si";
 
 
 import { DiJavascript, DiCss3, DiHtml5, DiMongodb, DiHeroku, DiJqueryLogo, DiFirebase, DiMaterializecss, DiAppollo} from "react-icons/di";
@@ -28,7 +28,7 @@ Technology" />
       
   
     <p>I am a software engineer, creative technologist, researcher and educator with passion for complexity, networked systems, arts, social innovation and community development. I have an interdisciplinary background: digital technology, arts and cognitive science. I was always interested in coding and being very hands on and making, creating platforms and establishing collaborations. I have also always been driven by curiosity and my capacity to see the whole and its parts. I have learned to move fast and efficiently from large scale problems, such as networks to the specificities of software implementation. I have lots of collaborative experience envisioning, engineering, coordinating  and passion for deploying cutting edge international projects intersecting software, culture and people.
-I am fascinated by the potential of the blockchain for financial inclusion and innovation. I am a <a href="https://kernel.community/en/">Kernel Fellow Block5 2022.</a></p>
+I am fascinated by the potential of the blockchain for financial inclusion and innovation. I am a graduate of the <a href="https://storage.ning.com/topology/rest/1.0/file/get/10157001690?profile=RESIZE_710x"> General Assembly Software Immersive Program (December 2021)</a> and a <a href="https://kernel.community/en/">Kernel Fellow Block5 2022.</a></p>
 
 <p><a href="#portfolio"><GrProjects/> Projects</a></p>
 <p><a target='_blank' href="https://storage.ning.com/topology/rest/1.0/file/get/9920492100"><FaFileDownload/> Download my resume</a></p>
@@ -45,9 +45,10 @@ I am fascinated by the potential of the blockchain for financial inclusion and i
      
     </div>
 
-<h3 >Hola, my name is Marlon Barrios Solano and this is my portfolio:</h3>
+<h3 >Hola, my name is Marlon Barrios Solano and I do this and that...</h3>
 </header>
 <section id='portfolio' className='projects'>
+
 <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
@@ -133,7 +134,6 @@ After logged in, the user is able to select a set of currencies to a personal li
 All data is updated dynamically; app was deployed using Google Firebase authentication and consumes a third party API.
 
 
-
 </p>
 </div>
 
@@ -151,6 +151,79 @@ All data is updated dynamically; app was deployed using Google Firebase authenti
 </section>
 
 <section className='projects'>
+ 
+<div className='projects__card'>
+  <div className='projects__card__description'>
+  <div className='tech_icons'>
+<a target="_blank" href='https://reactjs.org/'><FaReact/></a>
+<a target="_blank" href='https://www.gatsbyjs.com/'><SiGatsby/></a>
+<a target="_blank" href='https://www.netlify.com/'><SiNetlify/></a>
+
+
+
+</div>
+
+  <img src='https://storage.ning.com/topology/rest/1.0/file/get/10156924495?profile=RESIZE_710x'/>
+
+
+<h2>Dan Van Note Portfolio | Videographer</h2>
+<p>I created this image centric web/mobile porfolio for the videographer Daniel Van Note. He wanted a very elegant and minimalistic protfolio website with a will feature the rich imnagery of his commercial and artistic work.
+  I developed a site modifying the Gatsby/React.js 'Starter Portfolio: Jodie' code and  content managed in Markdown.
+
+</p>
+</div>
+
+<div className='projects__card__links'>
+<a  target="_blank" href='https://github.com/marlonbarrios/danielprotfolio'>
+<FaGithub/>
+</a>
+<a target="_blank" href='https://vannotevideos.com/'>
+ Live
+</a>
+</div>
+
+</div>
+  
+  <div className='projects__card'>
+  <div className='projects__card__description'>
+  <img src='https://storage.ning.com/topology/rest/1.0/file/get/8688552671'/>
+
+<h2>MotionDAO</h2>
+<p>MotionDAO is an international collective of artists/researchers, creating contexts of adoption and creative experimentation using Web3 technologies; investigating its impacts on ownership, governance and value creation within local and global communities of practice; it operates supported and supporting the social networks dance-tech.net and movimiento.org.</p>
+</div>
+<div className='projects__card__links' >
+<a target="_blank" href='https://www.dance-tech.net/page/motion-dao'>
+MotionDAO
+</a>
+<a target="_blank" href='https://app.astrodao.com/dao/motiondao.sputnik-dao.near'>
+@Near Astro
+</a>
+</div>
+  </div>
+  <div className='projects__card'>
+  <div className='projects__card__description'>
+  <img src='https://storage.ning.com/topology/rest/1.0/file/get/9890324268?profile=original'/>
+ 
+<h2>Dance-tech Project</h2>
+<p>I have developed and curated social networks since 2008. The dance-tech,ne (English) and movimiento.org (in Spanish and Portuguese) have explored the potential of the new Internet technologies for knowledge production and distribution on body based artistic practices and it's intersections with other disciplines such as new media, architecture, philosophy, anthropology and more.
+All dance-tech projects attempt to situate embodiment as a fundamental condition and movement arts relevant practices of the contemporary with an interdisciplinary framework.</p>
+</div>
+<div className='projects__card__links'>
+<a  target="_blank" href='https://www.dance-tech.net/'>
+ dance-tech.net
+</a>
+<a target="_blank" href='https://www.movimiento.org'>
+movimiento.org
+</a>
+</div>
+</div>
+
+
+
+</section>
+
+<section className='projects'>
+ 
 
 <div className='projects__card'>
   <div className='projects__card__description'>
@@ -182,47 +255,6 @@ Haikus and QR codes originated in Japan and share a minimalist computational est
 </div>
 
   </div>
-  
-  <div className='projects__card'>
-  <div className='projects__card__description'>
-  <img src='https://storage.ning.com/topology/rest/1.0/file/get/8688552671'/>
-
-<h2>MotionDAO</h2>
-<p>MotionDAO is an international collective of artists/researchers, creating contexts of adoption and creative experimentation using Web3 technologies; investigating its impacts on ownership, governance and value creation within local and global communities of practice; it operates supported and supporting the social networks dance-tech.net and movimiento.org.</p>
-</div>
-<div className='projects__card__links' >
-<a target="_blank" href='https://www.dance-tech.net/page/motion-dao'>
-MotionDAO
-</a>
-<a target="_blank" href='https://app.astrodao.com/dao/motiondao.sputnik-dao.near'>
-@Near Astro
-</a>
-</div>
-  </div>
-  <div className='projects__card'>
-  <div className='projects__card__description'>
-  <img src='https://storage.ning.com/topology/rest/1.0/file/get/9890324268?profile=original'/>
- 
-<h2>Dance-tech Project</h2>
-<p>dance-tech project explores the potential of the new Internet technologies for knowledge production and distribution on body based artistic practices and it's intersections with other disciplines such as new media, architecture, philosophy, anthropology and more.
-All dance-tech projects attempt to place situated embodiment as a fundamental condition and movement arts as relevant practices to contemporaneity with interdisciplinary framework.</p>
-</div>
-<div className='projects__card__links'>
-<a  target="_blank" href='https://storage.ning.com/topology/rest/1.0/file/get/9890324268'>
- dance-tech.net
-</a>
-<a target="_blank" href='https://www.movimiento.org'>
-movimiento.org
-</a>
-</div>
-</div>
-
-
-
-</section>
-
-<section className='projects'>
-
 <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
@@ -270,8 +302,8 @@ is prompted to complete the phrase: "In the future...".</p>
   <img src='https://storage.ning.com/topology/rest/1.0/file/get/10155246676?profile=RESIZE_710x'/>
 
 
-<h2>Art + Tech + Complexity</h2>
-<p>As an interdisciplinary artist and researcher working in the intersection of dance, computation, networks  and cognitive science, I have extensive international teaching and consulting experience at universities, arts centers, festivals and thinktanks. I use improvisational games, interactive media, vipassana meditation and design thinking as part of my facilitation tools. 
+<h2>UnstableLandscape | Art + Tech + P2P + Blockchain</h2>
+<p>As an interdisciplinary artist and researcher working in the intersection of dance, computation, networks, cognitive science and blockchain studies, I teach and consult for universities, arts centers, corporations, festivals and thinktanks. I use improvisational/performance games, interactive media, somatics, vipassana meditation and design thinking as part of my facilitation toolbox and pedagogy: UnstableLandscape.
 
 </p>
 </div>
