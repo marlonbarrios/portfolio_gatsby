@@ -5,13 +5,13 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { FaPython, FaReact, FaNode,  FaFileDownload, FaEnvelope, FaGithub} from "react-icons/fa";
-import { GrProjects } from "react-icons/gr";
+import { FaPython, FaReact, FaNode, FaFileDownload, FaEnvelope, FaGithub} from "react-icons/fa";
+import { GrProjects, GrGraphQl } from "react-icons/gr";
 
-import { SiDjango, SiNetlify, SiPostman, SiPostgresql, SiExpress } from "react-icons/si";
+import { SiDjango, SiNetlify, SiPostman, SiPostgresql, SiExpress, SiMaterialui, SiHasura } from "react-icons/si";
 
 
-import { DiJavascript, DiCss3, DiHtml5, DiMongodb, DiHeroku, DiJqueryLogo, DiFirebase, DiMaterializecss} from "react-icons/di";
+import { DiJavascript, DiCss3, DiHtml5, DiMongodb, DiHeroku, DiJqueryLogo, DiFirebase, DiMaterializecss, DiAppollo} from "react-icons/di";
 
 const IndexPage = () => (
   <Layout>
@@ -51,42 +51,39 @@ I am fascinated by the potential of the blockchain for financial inclusion and i
 <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
-<a target="_blank" alt="Python" href='https://www.python.org/'><FaPython/></a>
-<a target="_blank" href='https://www.djangoproject.com/'><SiDjango/></a>
-<a target="_blank" href='https://www.heroku.com/'><DiHeroku/></a>
-<a target="_blank" href='https://www.postgresql.org/'><SiPostgresql/></a>
-<a target="_blank" href='https://en.wikipedia.org/wiki/HTML5'><DiHtml5/></a>
-<a target="_blank" href='https://en.wikipedia.org/wiki/CSS'><DiCss3/></a>
-<a target="_blank" href='https://www.javascript.com/'><DiJavascript/></a>
-<a target="_blank" href='https://materializecss.com/'><DiMaterializecss/></a>
+<a target="_blank" href='https://reactjs.org/'><FaReact/></a>
+<a target="_blank" href='https://v0.mui.com/#/'><SiMaterialui /></a>
+<a target="_blank" href='https://graphql.org/'><GrGraphQl /></a>
+
+<a target="_blank" href='https://hasura.io/'><SiHasura/></a>
+<a target="_blank" href='https://www.netlify.com/'><SiNetlify/></a>
+
 
 
 </div>
-  <img src='  https://github.com/tylerrice121/Futures_Thinking/raw/master/main_app/static/images/home.png'/>
+
+  <img src='https://storage.ning.com/topology/rest/1.0/file/get/10155131493?profile=RESIZE_710x'/>
 
 
+<h2>Kernel Music Player</h2>
+<p>As a member of Kernel BlockV, I developed this  web app for the group to share music adding YouTube muic video and music from SounCloud.
+  The video are added to a list fetching the thunbnail, name and artist data. The user may play them loading the songs in the player and also may taylor a queue.
+  The personal queue us handled in the browser and the main list and data is managed by Apollo/GraphQR in Hasura/Heroku. You may add some traks and share the noise!
 
-<h2>futures-thinking.io</h2>
-<p>
-
-We were inspired by the Futures Thinking discipline, as an approach to 
-creative and exploratory process that uses divergent thinking, seeking 
-many possible answers and acknowledging uncertainty. It's a different 
-mind-set to analytical thinking which uses convergent thinking to seek 
-the right answer and reduce uncertainty. In Futures Thinking, the user 
-is prompted to complete the phrase: "In the future...".</p>
+</p>
 </div>
+
 <div className='projects__card__links'>
-
-<a target='_blank' href="https://github.com/marlonbarrios"><FaGithub/></a>
-
-<a target="_blank"href='https://futuresthinking.herokuapp.com/'>
- Live</a>
+<a  target="_blank" href='https://github.com/marlonbarrios/music-player-react'>
+<FaGithub/>
+</a>
+<a target="_blank" href='https://app-music-player.netlify.app/'>
+ Live
+</a>
 </div>
 
-
-  </div>
-  <div className='projects__card'>
+</div>
+<div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
 <a target="_blank" href='https://en.wikipedia.org/wiki/HTML5'><DiHtml5/></a>
@@ -111,7 +108,6 @@ is prompted to complete the phrase: "In the future...".</p>
 </div>
 
   </div>
-  
   <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
@@ -123,10 +119,6 @@ is prompted to complete the phrase: "In the future...".</p>
 <a target="_blank" href='https://firebase.google.com/'><DiFirebase/></a>
 <a target="_blank" href='https://www.heroku.com/'><DiHeroku/></a>
 <a target="_blank" href='https://www.netlify.com/'><SiNetlify/></a>
-
-
-
-
 
 </div>
 
@@ -159,6 +151,7 @@ All data is updated dynamically; app was deployed using Google Firebase authenti
 </section>
 
 <section className='projects'>
+
 <div className='projects__card'>
   <div className='projects__card__description'>
   <div className='tech_icons'>
@@ -228,6 +221,76 @@ movimiento.org
 
 </section>
 
+<section className='projects'>
+
+<div className='projects__card'>
+  <div className='projects__card__description'>
+  <div className='tech_icons'>
+<a target="_blank" alt="Python" href='https://www.python.org/'><FaPython/></a>
+<a target="_blank" href='https://www.djangoproject.com/'><SiDjango/></a>
+<a target="_blank" href='https://www.heroku.com/'><DiHeroku/></a>
+<a target="_blank" href='https://www.postgresql.org/'><SiPostgresql/></a>
+<a target="_blank" href='https://en.wikipedia.org/wiki/HTML5'><DiHtml5/></a>
+<a target="_blank" href='https://en.wikipedia.org/wiki/CSS'><DiCss3/></a>
+<a target="_blank" href='https://www.javascript.com/'><DiJavascript/></a>
+<a target="_blank" href='https://materializecss.com/'><DiMaterializecss/></a>
+
+
+</div>
+  <img src='  https://github.com/tylerrice121/Futures_Thinking/raw/master/main_app/static/images/home.png'/>
+
+
+
+<h2>futures-thinking.io</h2>
+<p>
+
+We were inspired by the Futures Thinking discipline, as an approach to 
+creative and exploratory process that uses divergent thinking, seeking 
+many possible answers and acknowledging uncertainty. It's a different 
+mind-set to analytical thinking which uses convergent thinking to seek 
+the right answer and reduce uncertainty. In Futures Thinking, the user 
+is prompted to complete the phrase: "In the future...".</p>
+</div>
+<div className='projects__card__links'>
+
+<a target='_blank' href="https://github.com/marlonbarrios"><FaGithub/></a>
+
+<a target="_blank"href='https://futuresthinking.herokuapp.com/'>
+ Live</a>
+</div>
+
+
+  </div>
+ 
+
+<div className='projects__card'>
+  <div className='projects__card__description'>
+
+
+  <img src='https://storage.ning.com/topology/rest/1.0/file/get/10155246676?profile=RESIZE_710x'/>
+
+
+<h2>Art + Tech + Complexity</h2>
+<p>As an interdisciplinary artist and researcher working in the intersection of dance, computation, networks  and cognitive science, I have extensive international teaching and consulting experience at universities, arts centers, festivals and thinktanks. I use improvisational games, interactive media, vipassana meditation and design thinking as part of my facilitation tools. 
+
+</p>
+</div>
+
+<div className='projects__card__links'>
+<a  target="_blank" href='https://www.dance-tech.net/profile/network_producer'>
+More Info
+</a>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+</section>
 
    
 </div>
