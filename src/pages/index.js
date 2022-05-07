@@ -5,7 +5,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { FaPython, FaReact, FaNode, FaFileDownload, FaEnvelope, FaGithub} from "react-icons/fa";
+import { FaPython, FaLinkedin, FaReact, FaNode, FaFileDownload, FaEnvelope, FaGithub} from "react-icons/fa";
 import { GrProjects, GrGraphQl } from "react-icons/gr";
 
 import { SiDjango, SiNetlify, SiPostman, SiPostgresql, SiGatsby, SiExpress, SiMaterialui, SiHasura } from "react-icons/si";
@@ -27,10 +27,11 @@ Technology" />
    
       
   
-    <p>I am a software engineer, creative technologist, researcher and educator with passion for complexity, networked systems, arts, social innovation and community development. I have an interdisciplinary background: digital technology, arts and cognitive science. I was always interested in coding and being very hands on and making, creating platforms and establishing collaborations. I have also always been driven by curiosity and my capacity to see the whole and its parts. I have learned to move fast and efficiently from large scale problems, such as networks to the specificities of software implementation. I have lots of collaborative experience envisioning, engineering, coordinating  and passion for deploying cutting edge international projects intersecting software, culture and people.
+    <p>I am a software engineer, creative technologist, researcher and educator with passion for complexity, networked systems, arts, social innovation and community development. I have an interdisciplinary background: digital technology, arts and cognitive science. For more than 20 years, as a performer, digital artist and educator, I have always been interested in building systems with software, making, creating platforms and establishing collaborations. I have always been driven by curiosity and my capacity to see the whole and its parts. I have learned to move fast and efficiently from large scale problems, such as networks to the specificities of software implementation. I have lots of collaborative experience envisioning, engineering, coordinating  and passion for deploying cutting edge international projects intersecting software, culture and people.
 I am fascinated by the potential of the blockchain for financial inclusion and innovation. I am a graduate of the <a href="https://storage.ning.com/topology/rest/1.0/file/get/10157001690?profile=RESIZE_710x"> General Assembly Software Engineering Immersive Program (December 2021)</a> and a <a href="https://kernel.community/en/">Kernel Fellow Block5 2022.</a></p>
 
 <p><a href="#portfolio"><GrProjects/> Projects</a></p>
+<p><a target='_blank' href="https://www.linkedin.com/in/marlon-barrios-solano-98599b205/"><FaLinkedin/>LinkedIn</a></p>
 <p><a target='_blank' href="https://storage.ning.com/topology/rest/1.0/file/get/9920492100"><FaFileDownload/> Download my resume</a></p>
 <p><a href="mailto:marlon@dance-tech.net"><FaEnvelope/> Interested in working together? Contact me</a></p>
 </div>
@@ -45,7 +46,9 @@ I am fascinated by the potential of the blockchain for financial inclusion and i
      
     </div>
 
-<h3 >Hola, my name is Marlon Barrios Solano and I do this and that...</h3>
+<h3> My name is Marlon Barrios Solano and I build software and communities...</h3>
+<h3> <a target="_blank" href='https://github.com/marlonbarrios/jsvanilla-projects#readme'>I love Vanilla javaScript</a></h3>
+
 </header>
 <section id='portfolio' className='projects'>
 
